@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should match snapshot 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "colors": Object {
+        "beigeLight": "#e2d5ca",
+        "black": "#000000",
+        "blackOpaque": "rgba(0, 0, 0, 0.5)",
+        "brown": "#492e22",
+        "brown2": "#a6816a",
+        "grey": "#dbd8d7",
+        "grey2": "#969696",
+        "red": "#d43d69",
+        "sage": "#209971",
+        "white": "#FFFFFF",
+      },
+      "fonts": Object {
+        "bold": "Lato",
+        "decorated": "Besley",
+        "regular": "Lato",
+      },
+      "maxPageWidth": 1500,
+    }
+  }
+>
+  <Provider
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <Header />
+  </Provider>
+</ContextProvider>
+`;
